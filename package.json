@@ -1,0 +1,13 @@
+{
+  "name": "adventofcode",
+  "version": "1.0.0",
+  "description": "",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "build": "cd Day%npm_config_day% && tsc index.ts && node index.js",
+    "dev": "cd Day%npm_config_day% && tsc-watch index.ts --onSuccess \"node .\""
+  },
+  "author": "",
+  "license": "ISC"
+}
